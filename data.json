@@ -1,0 +1,52 @@
+{
+    "schema": {
+        "fields": [
+            {
+                "name": "index",
+                "type": "integer"
+            },
+            {
+                "name": "mean",
+                "type": "number"
+            },
+            {
+                "name": "maximum",
+                "type": "number"
+            },
+            {
+                "name": "minimum",
+                "type": "number"
+            }
+        ],
+        "primaryKey": [
+            "index"
+        ],
+        "pandas_version": "0.20.0"
+    },
+    "data": [
+        {
+            "index": 0,
+            "mean": 1.00339105,
+            "maximum": 1.1145691,
+            "minimum": 0.8870515
+        },
+        {
+            "index": 1,
+            "mean": 1.0232774833,
+            "maximum": 1.2407391,
+            "minimum": 0.8754802
+        },
+        {
+            "index": 2,
+            "mean": 2.1940872167,
+            "maximum": 3.8210138,
+            "minimum": 1.2145414
+        },
+        {
+            "index": 3,
+            "mean": 1.2843046833,
+            "maximum": 1.8400635,
+            "minimum": 0.7882492
+        }
+    ]
+}
